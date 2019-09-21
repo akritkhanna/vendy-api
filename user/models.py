@@ -10,8 +10,6 @@ from vendy_api import settings
 
 class MyUserManager(BaseUserManager):
 
-
-
     use_in_migrations = True
 
     def create_user(self, mobile_no, fname='', lname='', password=None):
@@ -49,7 +47,7 @@ class User(AbstractBaseUser):
     # CUSTOM FIELDS
     mobile_no = models.CharField(unique=True, max_length=10)
     rating = models.DecimalField(validators=[MaxValueValidator(5.0), MinValueValidator(0.0)],
-                                 max_digits=2,
+                                 max_digits=3,
                                  decimal_places=2,
                                  default=0.0)
 
@@ -57,8 +55,10 @@ class User(AbstractBaseUser):
     lname = models.CharField(max_length=20)
     avatar_url = models.ImageField(upload_to='profile_img/', default=None)
     is_approved = models.BooleanField(default=False)
+    categories = models.ManyToManyField('category.Categories', default=None)
+    current_location = models.OneToOneField('location.Location', on_delete=models.CASCADE, null=True,  default=None)
 
-    # REQUIRED FIELDS DON'T TOUCH
+    # REQUIRED FIELDS (DON'T TOUCH)
     date_joined = models.DateTimeField(verbose_name='date joined', auto_now=True)
     last_login = models.DateTimeField(verbose_name='last logined', auto_now=True)
     is_admin = models.BooleanField(default=False)

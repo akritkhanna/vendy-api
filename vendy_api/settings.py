@@ -39,7 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'rest_framework.authtoken',
-    'vendy_api.user.apps.UserConfig',
+    'user.apps.UserConfig',
+    'category.apps.CategoryConfig',
+    'location.apps.LocationConfig'
 ]
 
 SITE_ID = 1
@@ -50,7 +52,13 @@ REST_FRAMEWORK = {
     ],
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.IsAuthenticated',
-    ]
+    ],
+    'DEFAULT_FILTER_BACKENDS': [
+        'django_filters.rest_framework.DjangoFilterBackend',
+    ],
+    # 'DEFAULT_RENDERER_CLASSES': [
+    #     'rest_framework.renderers.JSONRenderer',
+    # ]
 }
 
 MIDDLEWARE = [
