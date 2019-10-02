@@ -1,4 +1,5 @@
 from rest_framework import serializers
+
 from category.serializers import CategoriesSerializer
 from location.serializers import LocationSerializer
 from .models import User
@@ -12,8 +13,8 @@ class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
         # depth = 1
-        fields = ['id', 'mobile_no', 'rating', 'fname', 'lname', 'avatar_url', 'is_approved', 'is_admin',
-                  'current_location', 'categories']
+        fields = ['id', 'mobile_no', 'rating', 'fname', 'lname', 'avatar_url', 'is_approved', 'has_applied',
+                  'document_proof', 'is_admin', 'current_location', 'categories']
 
 class UserRegistrationSerializer(serializers.ModelSerializer):
 
@@ -21,7 +22,7 @@ class UserRegistrationSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = User
-        fields = ['mobile_no', 'password', 'password2']
+        fields = ['mobile_no', 'password', 'password2', ]
         extra_kwargs = {
             'password': {'write_only': True} #not to be shown in api view
         }
@@ -32,6 +33,7 @@ class UserRegistrationSerializer(serializers.ModelSerializer):
         )
         password = self.validated_data['password']
         password2 = self. validated_data['password2']
+
 
         if password != password2:
             raise serializers.ValidationError({'password': 'password should match'})

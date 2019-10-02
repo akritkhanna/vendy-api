@@ -63,6 +63,9 @@ class PendingUserApplication(generics.ListAPIView):
 
 class ApproveUserApplicationView(APIView):
 
+    authentication_classes = [TokenAuthentication, ]
+    permission_classes = [IsAdminUser, ]
+
     def put(self, request, id, format=None):
         unapproved_user = User.object.get(id=id)
 
