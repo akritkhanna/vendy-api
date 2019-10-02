@@ -26,7 +26,8 @@ SECRET_KEY = 'ixc0exr%r0dguimadj#!^qn4ty+d&^tjuu+8a(g0qe@#+igw23'
 DEBUG = True
 
 ALLOWED_HOSTS = ['*',
-                 'https://vendy-api.herokuapp.com']
+                 'https://vendy-api.herokuapp.com',
+                 ]
 
 
 # Application definition
@@ -95,7 +96,11 @@ AUTH_USER_MODEL = 'user.User'
 
 WSGI_APPLICATION = 'vendy_api.wsgi.application'
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+# MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+DEFAULT_FILE_STORAGE = 'storages.backends.dropbox.DropBoxStorage'
+DROPBOX_OAUTH2_TOKEN = '0RA6z2177HAAAAAAAAAAW3yzLb7nrAgfHtmudFoT-1FS7AFxrQ65XvYrDa3VWD8D'
+DROPBOX_ROOT_PATH = 'media'
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
