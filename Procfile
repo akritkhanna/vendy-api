@@ -1,1 +1,1 @@
-web: gunicorn vendy_api.wsgi
+web: gunicorn vendy_api.wsgi --log-file -
