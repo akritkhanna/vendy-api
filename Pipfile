@@ -6,11 +6,6 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-django = "*"
-django-rest-auth = "*"
-pillow = "*"
-psycopg2 = "*"
-gunicorn = "*"
 
 [requires]
 python_version = "3.6"
