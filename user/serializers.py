@@ -1,8 +1,10 @@
+from dropbox import dropbox
 from rest_framework import serializers
 
 from category.serializers import CategoriesSerializer
 from location.serializers import LocationSerializer
 from .models import User
+
 
 
 class UserSerializer(serializers.ModelSerializer):
@@ -15,6 +17,7 @@ class UserSerializer(serializers.ModelSerializer):
         # depth = 1
         fields = ['id', 'mobile_no', 'rating', 'fname', 'lname', 'avatar_url', 'is_approved', 'has_applied',
                   'document_proof', 'is_admin', 'current_location', 'categories']
+
 
 class UserRegistrationSerializer(serializers.ModelSerializer):
 
