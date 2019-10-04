@@ -20,17 +20,27 @@ class UserSerializer(serializers.ModelSerializer):
 
     def validate_avatar_url(self, user):
         image = user.avatar_url
-        new_url = image.url
-        if "?" in new_url:
-            new_url = image.url[:image.url.rfind("?")]
-        return new_url
+        if image:
+            new_url = image.url
+            if "?" in new_url:
+                new_url = image.url[:image.url.rfind("?")]
+            return new_url
+        else:
+            image = None
+            return image
+
 
     def validate_document_url(self, user):
         image = user.document_proof
-        new_url = image.url
-        if "?" in new_url:
-            new_url = image.url[:image.url.rfind("?")]
-        return new_url
+        if image:
+            new_url = image.url
+            if "?" in new_url:
+                new_url = image.url[:image.url.rfind("?")]
+            return new_url
+        else:
+            image = None
+            return image
+
 
 
 class UserRegistrationSerializer(serializers.ModelSerializer):
