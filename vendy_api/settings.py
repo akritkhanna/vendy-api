@@ -26,7 +26,6 @@ SECRET_KEY = 'ixc0exr%r0dguimadj#!^qn4ty+d&^tjuu+8a(g0qe@#+igw23'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-                 '127.0.0.1',
                  'https://vendy-api.herokuapp.com',
                  ]
 
