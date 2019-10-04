@@ -25,7 +25,8 @@ SECRET_KEY = 'ixc0exr%r0dguimadj#!^qn4ty+d&^tjuu+8a(g0qe@#+igw23'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*',
+ALLOWED_HOSTS = [
+                 '127.0.0.1',
                  'https://vendy-api.herokuapp.com',
                  ]
 
@@ -99,7 +100,7 @@ WSGI_APPLICATION = 'vendy_api.wsgi.application'
 # MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 DEFAULT_FILE_STORAGE = 'storages.backends.dropbox.DropBoxStorage'
-DROPBOX_OAUTH2_TOKEN = '0RA6z2177HAAAAAAAAAAW3yzLb7nrAgfHtmudFoT-1FS7AFxrQ65XvYrDa3VWD8D'
+DROPBOX_OAUTH2_TOKEN = '0RA6z2177HAAAAAAAAAAabbAcWi0S_KHTVBLON1dU2hlfIMjIH3uTVXRsEvfKEm_'
 DROPBOX_ROOT_PATH = 'media'
 
 # Database
