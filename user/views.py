@@ -24,6 +24,16 @@ class UserView(APIView):
         return Response(content)
 
 
+class CurrentUserView(APIView):
+
+    authentication_classes = [TokenAuthentication, ]
+    permission_classes = [IsAuthenticated, ]
+
+    def get(self, request):
+        userSerializer = UserSerializer(request.user)
+        return Response(userSerializer.data)
+
+
 class UserRegistrationView(APIView):
 
     authentication_classes = []
