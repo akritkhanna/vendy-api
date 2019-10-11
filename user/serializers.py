@@ -15,7 +15,7 @@ class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
         # depth = 1
-        fields = ['id', 'mobile_no', 'rating', 'first_name', 'last_name', 'avatar_url', 'is_approved', 'has_applied',
+        fields = ['id', 'mobile_no', 'rating', 'name', 'avatar_url', 'is_approved', 'has_applied',
                   'document_proof', 'is_admin', 'current_location', 'categories']
 
     def validate_avatar_url(self, user):
