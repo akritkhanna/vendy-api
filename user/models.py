@@ -54,7 +54,7 @@ class User(AbstractBaseUser):
     name = models.CharField(max_length=20)
     avatar_url = models.ImageField(upload_to='profile_img/', default=None, blank=True, null=True)
     is_approved = models.BooleanField(default=False)
-    categories = models.ManyToManyField('category.Categories', default=None, blank=True, null=True)
+    sub_categories = models.ManyToManyField('category.SubCategories', default=None, blank=True, null=True)
     current_location = models.OneToOneField('location.Location', on_delete=models.CASCADE, null=True, blank=True,  default=None)
     has_applied = models.BooleanField(default=False)
     document_proof = models.ImageField(upload_to='document_proof/', default=None, blank=True, null=True)

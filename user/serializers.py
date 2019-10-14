@@ -1,13 +1,13 @@
 from rest_framework import serializers
 
-from category.serializers import CategoriesSerializer
+from category.serializers import SubCategoriesSerializer
 from location.serializers import LocationSerializer
 from .models import User
 
 
 class UserSerializer(serializers.ModelSerializer):
 
-    categories = CategoriesSerializer(many=True, read_only=True)
+    sub_categories = SubCategoriesSerializer(many=True, read_only=True)
     current_location = LocationSerializer(many=False, read_only=True)
     avatar_url = serializers.SerializerMethodField('validate_avatar_url')
     document_proof = serializers.SerializerMethodField('validate_document_url')
@@ -16,7 +16,7 @@ class UserSerializer(serializers.ModelSerializer):
         model = User
         # depth = 1
         fields = ['id', 'mobile_no', 'rating', 'name', 'avatar_url', 'is_approved', 'has_applied',
-                  'document_proof', 'is_admin', 'current_location', 'categories']
+                  'document_proof', 'is_admin', 'current_location', 'sub_categories']
 
     def validate_avatar_url(self, user):
         image = user.avatar_url
