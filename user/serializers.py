@@ -46,6 +46,8 @@ class UserSerializer(serializers.ModelSerializer):
 class UserRegistrationSerializer(serializers.ModelSerializer):
 
     password2 = serializers.CharField(style={'input_type': 'password'}, write_only=True)
+    avatar_url = serializers.ImageField(required=False, max_length=None,
+                                        allow_empty_file=True, use_url=True)
 
     class Meta:
         model = User
