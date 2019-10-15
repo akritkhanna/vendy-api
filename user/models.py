@@ -53,11 +53,13 @@ class User(AbstractBaseUser):
 
     name = models.CharField(max_length=20)
     avatar_url = models.ImageField(upload_to='profile_img/', default=None, blank=True, null=True)
-    is_approved = models.BooleanField(default=False)
+    is_vendor = models.BooleanField(default=False)
     sub_categories = models.ManyToManyField('category.SubCategories', default=None, blank=True, null=True)
     current_location = models.OneToOneField('location.Location', on_delete=models.CASCADE, null=True, blank=True,  default=None)
-    has_applied = models.BooleanField(default=False)
-    document_proof = models.ImageField(upload_to='document_proof/', default=None, blank=True, null=True)
+    # has_applied = models.BooleanField(default=False)
+    # document_proof = models.ImageField(upload_to='document_proof/', default=None, blank=True, null=True)
+    business_name = models.CharField(max_length=30, default=None, blank=True, null=True)
+    business_description = models.CharField(max_length=100, default=None, blank=True, null=True)
 
     # REQUIRED FIELDS (DON'T TOUCH)
     date_joined = models.DateTimeField(verbose_name='date joined', auto_now=True)

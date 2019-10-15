@@ -47,6 +47,7 @@ class UserRegistrationView(APIView):
             user = user_register_serializer.save()
             data['response'] = 'success'
             data['mobile_no'] = user.mobile_no
+            data['name'] = user.name
             token = Token.objects.get(user=user).key
             data['token'] = token
             return Response(data)
@@ -59,7 +60,7 @@ class PendingUserApplication(generics.ListAPIView):
     authentication_classes = [TokenAuthentication, ]
     permission_classes = [IsAdminUser, ]
 
-    queryset = User.object.all().filter(is_approved=False)
+    queryset = User.object.all().filter(is_vendor=False)
     serializer_class = UserSerializer
     filter_backends = [SearchFilter, ]
     search_fields = ['mobile_no', ]
