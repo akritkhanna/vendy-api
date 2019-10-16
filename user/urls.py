@@ -3,13 +3,12 @@ from rest_framework.authtoken.views import obtain_auth_token
 
 # router = routers.DefaultRouter()
 # router.register('register', registration_view)
-from user.serializers import VendorRegisterSerializer
 from user.views import UserView, UserRegistrationView, PendingUserApplication, ApproveUserApplicationView, \
-    CurrentUserView, UserUpdateView
+    CurrentUserView, UserUpdateView, VendorUpdateView
 
 urlpatterns = [
     path('register', UserRegistrationView.as_view(), name='register'),
-    path('vregister', VendorRegisterSerializer.as_view(), name='vregister'),
+    path('vregister', VendorUpdateView.as_view(), name='vregister'),
     path('login', obtain_auth_token, name='login'),
     path('userlist', UserView.as_view(), name='userlist'),
     path('currentuser', CurrentUserView.as_view(), name='current user'),

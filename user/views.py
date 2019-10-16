@@ -73,7 +73,7 @@ class UserUpdateView(APIView):
             return Response(user_update_serializer.errors)
 
 
-class UserUpdateView(APIView):
+class VendorUpdateView(APIView):
     authentication_classes = [TokenAuthentication, ]
     permission_classes = []
 
