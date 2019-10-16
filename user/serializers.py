@@ -82,6 +82,13 @@ class UpdateUserSerializer(serializers.ModelSerializer):
         model = User
         fields = ['name', 'is_sharing', 'business_description', 'business_name', 'current_location']
 
+class VendorRegisterSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = User
+        fields = ['sub_categories']
+
+
 
 
 

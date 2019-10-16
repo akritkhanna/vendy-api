@@ -13,7 +13,6 @@ from user.serializers import UserSerializer, UserRegistrationSerializer, Unappro
 
 
 class UserView(APIView):
-
     authentication_classes = [TokenAuthentication, ]
     permission_classes = [IsAuthenticated, ]
 
@@ -26,7 +25,6 @@ class UserView(APIView):
 
 
 class CurrentUserView(APIView):
-
     authentication_classes = [TokenAuthentication, ]
     permission_classes = [IsAuthenticated, ]
 
@@ -36,7 +34,6 @@ class CurrentUserView(APIView):
 
 
 class UserRegistrationView(APIView):
-
     authentication_classes = []
     permission_classes = []
 
@@ -57,7 +54,6 @@ class UserRegistrationView(APIView):
 
 
 class UserUpdateView(APIView):
-
     authentication_classes = [TokenAuthentication, ]
     permission_classes = []
 
@@ -76,8 +72,24 @@ class UserUpdateView(APIView):
         else:
             return Response(user_update_serializer.errors)
 
-class PendingUserApplication(generics.ListAPIView):
 
+class UserUpdateView(APIView):
+    authentication_classes = [TokenAuthentication, ]
+    permission_classes = []
+
+    def put(self, request, format=None):
+        vendor_update_serializer = UpdateUserSerializer(request.user)
+        data = {}
+        if vendor_update_serializer.is_valid():
+            user = vendor_update_serializer.save()
+            data['response'] = 'Updated'
+            return Response(data)
+
+        else:
+            return Response(vendor_update_serializer.errors)
+
+
+class PendingUserApplication(generics.ListAPIView):
     authentication_classes = [TokenAuthentication, ]
     permission_classes = [IsAdminUser, ]
 
@@ -94,7 +106,6 @@ class PendingUserApplication(generics.ListAPIView):
 
 
 class ApproveUserApplicationView(APIView):
-
     authentication_classes = [TokenAuthentication, ]
     permission_classes = [IsAdminUser, ]
 
@@ -112,5 +123,3 @@ class ApproveUserApplicationView(APIView):
             return Response(data)
         else:
             return Response({'Error': 'Change me'})
-
-
