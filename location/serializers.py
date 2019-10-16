@@ -5,4 +5,4 @@ from .models import Location
 class LocationSerializer(serializers.ModelSerializer):
     class Meta:
         model = Location
-        fields = ['is_sharing', 'longitude', 'latitude']
+        fields = ['id', 'longitude', 'latitude']
