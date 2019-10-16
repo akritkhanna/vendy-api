@@ -16,7 +16,7 @@ class UserSerializer(serializers.ModelSerializer):
         model = User
         # depth = 1
         fields = ['id', 'mobile_no', 'rating', 'name', 'avatar_url', 'is_vendor',
-                  'is_admin', 'current_location', 'sub_categories']
+                  'business_name', 'business_description', 'is_admin', 'current_location', 'sub_categories']
 
     def validate_avatar_url(self, user):
         image = user.avatar_url
@@ -75,6 +75,12 @@ class UnapprovedUserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
         fields = ['is_vendor', ]
+
+class UpdateUserSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = User
+        fields = ['name', 'is_sharing', 'business_description', 'business_name', 'current_location']
 
 
 

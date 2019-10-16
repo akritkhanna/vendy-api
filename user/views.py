@@ -7,8 +7,9 @@ from rest_framework.permissions import IsAuthenticated, IsAdminUser
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
+from location.serializers import LocationSerializer
 from user.models import User
-from user.serializers import UserSerializer, UserRegistrationSerializer, UnapprovedUserSerializer
+from user.serializers import UserSerializer, UserRegistrationSerializer, UnapprovedUserSerializer, UpdateUserSerializer
 
 
 class UserView(APIView):
@@ -54,6 +55,26 @@ class UserRegistrationView(APIView):
         else:
             return Response(user_register_serializer.errors)
 
+
+class UserUpdateView(APIView):
+
+    authentication_classes = [TokenAuthentication, ]
+    permission_classes = []
+
+    def put(self, request, format=None):
+
+        user_update_serializer = UpdateUserSerializer(request.user)
+        data = {}
+        if user_update_serializer.is_valid():
+            user = user_update_serializer.save()
+            data['response'] = 'Updated'
+            data['is_sharing'] = user.is_sharing
+            data['name'] = user.name
+            data['business_description'] = user.business_description
+            data['business_name'] = user.business_name
+            return Response(data)
+        else:
+            return Response(user_update_serializer.errors)
 
 class PendingUserApplication(generics.ListAPIView):
 

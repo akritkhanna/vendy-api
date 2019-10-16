@@ -60,6 +60,7 @@ class User(AbstractBaseUser):
     # document_proof = models.ImageField(upload_to='document_proof/', default=None, blank=True, null=True)
     business_name = models.CharField(max_length=30, default=None, blank=True, null=True)
     business_description = models.CharField(max_length=100, default=None, blank=True, null=True)
+    is_sharing = models.BooleanField(default=False)
 
     # REQUIRED FIELDS (DON'T TOUCH)
     date_joined = models.DateTimeField(verbose_name='date joined', auto_now=True)
