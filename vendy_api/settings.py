@@ -99,7 +99,7 @@ WSGI_APPLICATION = 'vendy_api.wsgi.application'
 
 # MEDIA STORAGE(CURRENTLY AWS S3)
 
-# MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media') #comment this if you want to use an image/video server(S3, Dropbox, Imgur) to store images/videos.
 
 # DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 # AWS_ACCESS_KEY_ID = removed due to security issues
