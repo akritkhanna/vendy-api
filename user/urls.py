@@ -12,7 +12,7 @@ urlpatterns = [
     path('login', obtain_auth_token, name='login'),
     path('userlist', UserView.as_view(), name='userlist'),
     path('currentuser', CurrentUserView.as_view(), name='current user'),
-    path('updateuser/<int:id>', UserUpdateView.as_view(), name='update user'),
+    path('updateuser/<int:id>', VendorUpdateView.as_view(), name='update user'),
     path('pendinglist', PendingUserApplication.as_view(), name='pendinglist'),
     path('approveuser/<int:id>', ApproveUserApplicationView.as_view(), name='approve_user'),
 

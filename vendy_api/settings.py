@@ -113,12 +113,8 @@ AWS_DEFAULT_ACL = None
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'cszyjhkt',
-        'USER': 'cszyjhkt',
-        'PASSWORD': 'lgytDf9-rTrPk6qyjRTqHpmvcnrGA5Qz',
-        'HOST': 'salt.db.elephantsql.com',
-        'PORT': '5432',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
 

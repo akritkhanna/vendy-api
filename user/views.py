@@ -9,7 +9,8 @@ from rest_framework.views import APIView
 
 from location.serializers import LocationSerializer
 from user.models import User
-from user.serializers import UserSerializer, UserRegistrationSerializer, UnapprovedUserSerializer, UpdateUserSerializer
+from user.serializers import UserSerializer, UserRegistrationSerializer, UnapprovedUserSerializer, UpdateUserSerializer, \
+    VendorRegisterSerializer
 
 
 class UserView(APIView):
@@ -73,20 +74,21 @@ class UserUpdateView(APIView):
             return Response(user_update_serializer.errors)
 
 
-class VendorUpdateView(APIView):
+class VendorUpdateView(generics.ListAPIView):
     authentication_classes = [TokenAuthentication, ]
     permission_classes = []
 
-    def put(self, request, format=None):
-        vendor_update_serializer = UpdateUserSerializer(request.user)
+    def put(self, request, id, format=None):
+        query = User.object.get(id=id)
+        vendor_register_serializer = VendorRegisterSerializer(query, data=request.data)
         data = {}
-        if vendor_update_serializer.is_valid():
-            user = vendor_update_serializer.save()
+        if vendor_register_serializer.is_valid():
+            user = vendor_register_serializer.save()
             data['response'] = 'Updated'
             return Response(data)
 
         else:
-            return Response(vendor_update_serializer.errors)
+            return Response(vendor_register_serializer.errors)
 
 
 class PendingUserApplication(generics.ListAPIView):
