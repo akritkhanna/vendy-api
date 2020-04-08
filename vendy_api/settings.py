@@ -101,21 +101,17 @@ WSGI_APPLICATION = 'vendy_api.wsgi.application'
 
 # MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-DEFAULT_FILE_STORAGE = 'storages.backends.dropbox.DropBoxStorage'
-DROPBOX_OAUTH2_TOKEN = '0RA6z2177HAAAAAAAAAAW3yzLb7nrAgfHtmudFoT-1FS7AFxrQ65XvYrDa3VWD8D'
-DROPBOX_ROOT_PATH = 'media'
-
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'cszyjhkt',
-        'USER': 'cszyjhkt',
-        'PASSWORD': 'lgytDf9-rTrPk6qyjRTqHpmvcnrGA5Qz',
-        'HOST': 'salt.db.elephantsql.com',
-        'PORT': '5432',
+        'NAME': #'removed',
+        'USER': #'removed',
+        'PASSWORD': #'removed',
+        'HOST': #'removed',
+        'PORT': #'removed',
     }
 }
 
