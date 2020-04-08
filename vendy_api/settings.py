@@ -101,12 +101,12 @@ WSGI_APPLICATION = 'vendy_api.wsgi.application'
 
 # MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-AWS_ACCESS_KEY_ID = #removed due to security issues
-AWS_SECRET_ACCESS_KEY = #removed due to security issues
-AWS_STORAGE_BUCKET_NAME = #removed due to security issues
-AWS_S3_FILE_OVERWRITE = False
-AWS_DEFAULT_ACL = None
+# DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+# AWS_ACCESS_KEY_ID = removed due to security issues
+# AWS_SECRET_ACCESS_KEY = removed due to security issues
+# AWS_STORAGE_BUCKET_NAME = removed due to security issues
+# AWS_S3_FILE_OVERWRITE = False
+# AWS_DEFAULT_ACL = None
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
