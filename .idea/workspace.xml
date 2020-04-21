@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7310c7e9-8494-4454-83c6-40e95400c6c3" name="Default Changelist" comment="temporary server">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendy_api/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/vendy_api/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="7310c7e9-8494-4454-83c6-40e95400c6c3" name="Default Changelist" comment="temporary server" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
