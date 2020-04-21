@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7310c7e9-8494-4454-83c6-40e95400c6c3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vendy_api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vendy_api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendy_api/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/vendy_api/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="7310c7e9-8494-4454-83c6-40e95400c6c3" name="Default Changelist" comment="temporary server" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -177,7 +172,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568152257325</updated>
       <workItem from="1587483745704" duration="594000" />
-      <workItem from="1587484795533" duration="1026000" />
+      <workItem from="1587484795533" duration="1364000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1568207236333</created>
@@ -473,7 +468,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586363423065</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="temporary server">
+      <created>1587487689837</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1587487689837</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TodoView">
@@ -503,7 +505,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Change in Procfile" />
     <MESSAGE value="Removed Procfile.windows" />
     <MESSAGE value="Updated requirement.txt" />
     <MESSAGE value="Updated pip file" />
@@ -528,6 +529,7 @@
     <MESSAGE value="Bug fix" />
     <MESSAGE value="Bug fix(url)" />
     <MESSAGE value="added a branch for sqlite database" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a branch for sqlite database" />
+    <MESSAGE value="temporary server" />
+    <option name="LAST_COMMIT_MESSAGE" value="temporary server" />
   </component>
 </project>
