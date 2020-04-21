@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7310c7e9-8494-4454-83c6-40e95400c6c3" name="Default Changelist" comment="temporary server" />
+    <list default="true" id="7310c7e9-8494-4454-83c6-40e95400c6c3" name="Default Changelist" comment="temporary server">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendy_api/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/vendy_api/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -172,7 +175,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568152257325</updated>
       <workItem from="1587483745704" duration="594000" />
-      <workItem from="1587484795533" duration="1364000" />
+      <workItem from="1587484795533" duration="1668000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1568207236333</created>
@@ -475,7 +478,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587487689837</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="temporary server">
+      <created>1587487763824</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1587487763824</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TodoView">
@@ -531,5 +541,11 @@
     <MESSAGE value="added a branch for sqlite database" />
     <MESSAGE value="temporary server" />
     <option name="LAST_COMMIT_MESSAGE" value="temporary server" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1587487765859">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587487765859" />
   </component>
 </project>
