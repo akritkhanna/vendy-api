@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7310c7e9-8494-4454-83c6-40e95400c6c3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vendy_api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vendy_api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendy_api/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/vendy_api/settings.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Django default" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Django default" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Django default" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Django default" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+        <item name="sqlite_master: table" type="ffe0bd85:SqliteImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>c</find>
+      <find>many</find>
+      <find>xml</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Akrit Khanna &lt;akritkhanna@users.noreply.github.com&gt;" />
+        <option value="Akrit Khanna &lt;34682943+akritkhanna@users.noreply.github.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="local-database" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1arBHHtl63EHP8s5WuX6rsTkMcT" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyPackageRequirementsInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Django\vendy_api" />
+      <recent name="E:\Django\vendy_api\category" />
+      <recent name="E:\Django\vendy_api\user" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="vendy_api" type="Python.DjangoServer" factoryName="Django server">
+      <module name="vendy_api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="vendy_api.settings" />
+      </envs>
+      <option name="SDK_HOME" value="E:\virtual environments\vendy_api\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7310c7e9-8494-4454-83c6-40e95400c6c3" name="Default Changelist" comment="" />
+      <created>1568152257325</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568152257325</updated>
+      <workItem from="1587483745704" duration="594000" />
+      <workItem from="1587484795533" duration="1026000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1568207236333</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568207236333</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Implemented Relations between Categories, Location and Admin can now update the user">
+      <created>1569098209121</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1569098209121</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Pipeline test using heroku(#1)">
+      <created>1570004939170</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1570004939170</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Pipeline test using heroku(#1)&#10;-added static">
+      <created>1570006728652</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1570006728653</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Pipeline test using heroku(#1)&#10;-added static">
+      <created>1570007429466</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1570007429466</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Pipeline test using heroku(#1)&#10;-added static">
+      <created>1570007573680</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1570007573680</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Pipeline test using heroku(#1)&#10;-added static">
+      <created>1570008828499</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1570008828499</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added requirements.txt">
+      <created>1570009746327</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1570009746327</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added requirements.txt">
+      <created>1570010010662</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1570010010662</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added requirements.txt">
+      <created>1570010021388</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1570010021388</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Updated Procfile">
+      <created>1570010768049</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1570010768049</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added Allowed host">
+      <created>1570014292644</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1570014292644</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Updated the host">
+      <created>1570015058002</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1570015058002</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Change in Procfile">
+      <created>1570015554860</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1570015554860</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Removed Procfile.windows">
+      <created>1570015809255</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1570015809255</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Updated requirement.txt">
+      <created>1570016965199</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1570016965199</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Updated requirement.txt">
+      <created>1570017629222</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1570017629222</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Updated pip file">
+      <created>1570018488592</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1570018488592</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Added dropbox for file upload">
+      <created>1570044357713</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1570044357713</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Added storage argument to imagefield">
+      <created>1570046299680</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1570046299680</updated>
+    </task>
+    <task id="LOCAL-00021" summary="messing around">
+      <created>1570146908276</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1570146908276</updated>
+    </task>
+    <task id="LOCAL-00022" summary="messing around v2">
+      <created>1570149702911</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1570149702911</updated>
+    </task>
+    <task id="LOCAL-00023" summary="messing around v2.1">
+      <created>1570149938738</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1570149938738</updated>
+    </task>
+    <task id="LOCAL-00024" summary="messing around v2.1.1">
+      <created>1570150047178</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1570150047178</updated>
+    </task>
+    <task id="LOCAL-00025" summary="migrated storage to AWS S3 from Dropbox AND Renamed Column name">
+      <created>1570190985432</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1570190985432</updated>
+    </task>
+    <task id="LOCAL-00026" summary="validated avatar url and document proof url">
+      <created>1570222958045</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1570222958045</updated>
+    </task>
+    <task id="LOCAL-00027" summary="added sub category field">
+      <created>1570820119125</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1570820119125</updated>
+    </task>
+    <task id="LOCAL-00028" summary="User model Updated">
+      <created>1570825897629</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1570825897629</updated>
+    </task>
+    <task id="LOCAL-00029" summary="User model Updated">
+      <created>1570842908066</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1570842908066</updated>
+    </task>
+    <task id="LOCAL-00030" summary="User model Updated">
+      <created>1570842925253</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1570842925253</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Added sub category serializer in category serializer">
+      <created>1570942011261</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1570942011261</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Some Changes in User Table">
+      <created>1571084105903</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1571084105903</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Some Changes in User Model">
+      <created>1571179363816</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1571179363816</updated>
+    </task>
+    <task id="LOCAL-00034" summary="User registration with no image">
+      <created>1571180884553</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1571180884553</updated>
+    </task>
+    <task id="LOCAL-00035" summary="User registration with image">
+      <created>1571181620603</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1571181620603</updated>
+    </task>
+    <task id="LOCAL-00036" summary="User field update">
+      <created>1571191045053</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1571191045053</updated>
+    </task>
+    <task id="LOCAL-00037" summary="User field update(id addded to api view)">
+      <created>1571191219067</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1571191219067</updated>
+    </task>
+    <task id="LOCAL-00038" summary="pipeline">
+      <created>1571198412236</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1571198412236</updated>
+    </task>
+    <task id="LOCAL-00039" summary="pipeline">
+      <created>1571200425145</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1571200425145</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Bug fix">
+      <created>1571200506719</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1571200506719</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Bug fix(url)">
+      <created>1571200647321</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1571200647321</updated>
+    </task>
+    <task id="LOCAL-00042" summary="added a branch for sqlite database">
+      <created>1586363423065</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1586363423065</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Change in Procfile" />
+    <MESSAGE value="Removed Procfile.windows" />
+    <MESSAGE value="Updated requirement.txt" />
+    <MESSAGE value="Updated pip file" />
+    <MESSAGE value="Added dropbox for file upload" />
+    <MESSAGE value="Added storage argument to imagefield" />
+    <MESSAGE value="messing around" />
+    <MESSAGE value="messing around v2" />
+    <MESSAGE value="messing around v2.1" />
+    <MESSAGE value="messing around v2.1.1" />
+    <MESSAGE value="migrated storage to AWS S3 from Dropbox AND Renamed Column name" />
+    <MESSAGE value="validated avatar url and document proof url" />
+    <MESSAGE value="added sub category field" />
+    <MESSAGE value="User model Updated" />
+    <MESSAGE value="Added sub category serializer in category serializer" />
+    <MESSAGE value="Some Changes in User Table" />
+    <MESSAGE value="Some Changes in User Model" />
+    <MESSAGE value="User registration with no image" />
+    <MESSAGE value="User registration with image" />
+    <MESSAGE value="User field update" />
+    <MESSAGE value="User field update(id addded to api view)" />
+    <MESSAGE value="pipeline" />
+    <MESSAGE value="Bug fix" />
+    <MESSAGE value="Bug fix(url)" />
+    <MESSAGE value="added a branch for sqlite database" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a branch for sqlite database" />
+  </component>
+</project>

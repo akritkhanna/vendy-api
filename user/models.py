@@ -12,12 +12,10 @@ class MyUserManager(BaseUserManager):
 
     use_in_migrations = True
 
-    def create_user(self, mobile_no, fname='', lname='', password=None):
+    def create_user(self, mobile_no, password=None):
 
         user = self.model(
             mobile_no=mobile_no,
-            fname=fname,
-            lname=lname,
         )
 
         user.set_password(password)
@@ -25,14 +23,11 @@ class MyUserManager(BaseUserManager):
 
         return user
 
-    def create_superuser(self, mobile_no, password, fname='', lname=''):
+    def create_superuser(self, mobile_no, password):
 
         user = self.create_user(
-
             password=password,
             mobile_no=mobile_no,
-            fname=fname,
-            lname=lname,
         )
 
         user.is_admin = True
