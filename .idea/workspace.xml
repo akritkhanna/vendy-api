@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7310c7e9-8494-4454-83c6-40e95400c6c3" name="Default Changelist" comment="temporary server" />
+    <list default="true" id="7310c7e9-8494-4454-83c6-40e95400c6c3" name="Default Changelist" comment="made this more secured.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -173,6 +175,7 @@
       <updated>1568152257325</updated>
       <workItem from="1587483745704" duration="594000" />
       <workItem from="1587484795533" duration="1668000" />
+      <workItem from="1587649138201" duration="724000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1568207236333</created>
@@ -482,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587487763824</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="made this more secured.">
+      <created>1587488536218</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1587488536218</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TodoView">
@@ -512,7 +522,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Removed Procfile.windows" />
     <MESSAGE value="Updated requirement.txt" />
     <MESSAGE value="Updated pip file" />
     <MESSAGE value="Added dropbox for file upload" />
@@ -537,12 +546,33 @@
     <MESSAGE value="Bug fix(url)" />
     <MESSAGE value="added a branch for sqlite database" />
     <MESSAGE value="temporary server" />
-    <option name="LAST_COMMIT_MESSAGE" value="temporary server" />
+    <MESSAGE value="made this more secured." />
+    <option name="LAST_COMMIT_MESSAGE" value="made this more secured." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1587487765859">
+    <state width="1493" height="202" key="GridCell.Tab.0.bottom" timestamp="1587489142048">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587487765859" />
+    <state width="1493" height="202" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587489142048" />
+    <state width="1493" height="202" key="GridCell.Tab.0.center" timestamp="1587489142048">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="202" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587489142048" />
+    <state width="1493" height="202" key="GridCell.Tab.0.left" timestamp="1587489142047">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="202" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587489142047" />
+    <state width="1493" height="202" key="GridCell.Tab.0.right" timestamp="1587489142048">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="202" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587489142048" />
+    <state x="922" y="190" width="388" height="263" key="MultipleFileMergeDialog" timestamp="1587488510316">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="922" y="190" width="388" height="263" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1587488510316" />
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1587488544741">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587488544741" />
   </component>
 </project>
